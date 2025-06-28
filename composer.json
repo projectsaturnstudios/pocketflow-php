@@ -2,7 +2,7 @@
     "name": "projectsaturnstudios/pocketflow-php",
     "description": "PHP implementation of The-Pocket/PocketFlow",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "authors": [
         {

@@ -73,7 +73,7 @@ class AsyncFlow extends Flow
     }
 
     // Override synchronous _run to throw error
-    public function _run(mixed $shared): mixed
+    public function _run(mixed &$shared): mixed
     {
         throw new \RuntimeException("Use run_async() for AsyncFlow.");
     }

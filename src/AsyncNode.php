@@ -77,7 +77,7 @@ class AsyncNode extends Node
             });
     }
 
-    public function _run(mixed $shared): mixed
+    public function _run(mixed &$shared): mixed
     {
         throw new \RuntimeException("Use run_async() for AsyncNode.");
     }

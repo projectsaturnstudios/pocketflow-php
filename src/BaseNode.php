@@ -19,9 +19,6 @@ abstract class BaseNode
 
     public function next(BaseNode $node, string $action = 'default'): BaseNode
     {
-        if (array_key_exists($action, $this->successors)) {
-            logger()->log('warn', "Overwriting success for action {$action}");
-        }
         $this->successors[$action] = $node;
         return $node;
     }

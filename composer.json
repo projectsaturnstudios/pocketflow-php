@@ -2,7 +2,7 @@
     "name": "projectsaturnstudios/pocketflow-php",
     "description": "PHP implementation of The-Pocket/PocketFlow",
     "type": "library",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +18,10 @@
     "autoload":{
         "psr-4": {
             "ProjectSaturnStudios\\PocketFlow\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
     },
     "autoload-dev":{
         "psr-4": {}

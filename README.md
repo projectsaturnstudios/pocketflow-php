@@ -7,6 +7,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.1%2B-blue.svg)
 ![ReactPHP](https://img.shields.io/badge/ReactPHP-Optional-orange.svg)
+[![Total Downloads](http://poser.pugx.org/projectsaturnstudios/pocketflow-php/downloads)](https://packagist.org/packages/pocketflow-php/downloads)
 
 PocketFlow PHP is the **first PHP implementation** of the [minimalist LLM framework](https://github.com/The-Pocket/PocketFlow) concept
 
